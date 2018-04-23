@@ -39,7 +39,9 @@ if (zufallszahl == 1 or zufallszahl == 3 or zufallszahl == 5):
     sieger = "ich"
 else:
     sieger = "computer"
-   print("Runde", runde, "von", runden, ": Sieger:", sieger, ": gewuerfelt wurde:", zufallszahl)
+
+print ("Runde", runde, "von", runden, ": Sieger:", sieger, ": gewuerfelt wurde:", zufallszahl)
+
 if (siege_ich > siege_computer):
     print("Du gewinst!")
 elif(siege_ich < siege_computer):
