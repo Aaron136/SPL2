@@ -16,8 +16,8 @@ while(gewonnen == False):
         print("Die zahl ist größer")
         versuche+1
         zahl = input("Welche Zahl?")
-        
-    if(zahl > zufallszahl):
+
+    if(int (zahl) > zufallszahl):
         print("Die Zahl ist kleiner")
         versuche+1
         zahl = input("Welche Zahl?")
