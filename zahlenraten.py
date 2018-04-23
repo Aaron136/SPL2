@@ -1,6 +1,6 @@
 # zahlenraten.py
 max = 200
-zufallszahl = random.random(1,200)
+zufallszahl = random.randint(1,200)
 gewonnen = False
 versuche = 0
 print("Bitte gib eine zahl zwischen 1", max, "eingeben")
